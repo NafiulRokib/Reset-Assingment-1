@@ -13,8 +13,8 @@ body {
     line-height: 1.6;
 }
 
-header {
-    display: inline-block;
+nav {
+    display: flex;
     justify-content: space-between;
     padding: 20px 50px;
     background-color: #fff;
