@@ -1,0 +1,122 @@
+/* Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    line-height: 1.6;
+}
+
+header {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+.resume-btn {
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 50px;
+    background: url('../Style/assets/Hero-bg.png') no-repeat center/cover;
+    color: #000;
+}
+
+.hero-avatar {
+    width: 150px;
+}
+
+.contact-btn {
+    padding: 15px 30px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.why-development .why-cards,
+.current-target .target-cards,
+.next-target .target-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.inspiration iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/* Support Section */
+.support form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.support input {
+    padding: 10px;
+    width: 300px;
+}
+
+.support button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .why-cards, .target-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
